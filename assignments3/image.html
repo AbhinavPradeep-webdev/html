@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://127.0.0.1:5500/Assignment%203/assignment3.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Favourite Marvel Movies</h1>
+    <ol>
+        <li><b>Phase 1
+
+        </b> 
+        <ul type="square">
+            <li>Iron Man
+               <ol type="a">
+                    <li>Release Date
+                        <ul type="circle">
+                            <li>May 8 2008</li>
+                        </ul>
+                    </li>
+                    <li>Director(s)
+                        <ol type="i">
+                            <li>Jon Favreau
+                                <ul>
+                                <li>Actor
+                                    <ul type="circle">
+                                        <li>1992-Present</li>
+                                    </ul>
+                                </li>
+                                <li>Director</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>Producer(s)
+                        <ol reversed="">
+                            <li>Avi Arad</li>
+                              <li> Kevin Feige</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li>The Incredible Hulk
+                <ol type="a">
+                    <li>Release Date
+                        <ul type="circle">
+                            <li> June 6, 2008</li>
+                        </ul></li></ol>
+                    </li>
+                    <li>Director(s)
+                        <ol type="i">
+                            <li> Louis Leterrier
+                                <ul>
+                                    
+                                    <li>Director
+                                        <ul type="circle">
+                                            <li>2002–present</li>
+                                        </ul>
+                                    </li>
+                                    <li>Producer </li>
+                                </ul>
+                            </li>
+                        </ol>  
+                    </li>
+                    <li>Producer(s)
+                        <ol reversed="">
+                            <li>  Avi Arad</li> 
+                            <li>  Gale Anne Hurd</li> 
+                            <li>Kevin Feige</li>
+                        </ol>
+                    </li>
+                </ul></li></ol>
+            
+            <li>Iron Man 2
+                <ol type="a">
+                    <li>Release Date
+                       <ul type="circle">
+                           <li>April 26, 2010</li>
+                       </ul></li></ol>
+                    </li>
+                    <li>Director(s)
+                        <ol type="i">
+                            <li>Jon Favreau
+                                <ul>
+                                    <li>Actor
+                                        <ul type="circle">
+                                            <li>1992–present</li>
+                                        </ul>
+                                    </li>
+                                    <li>Director</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>Producer(s)
+                        <ul type="circle">
+                            <li>Kevin Feige</li>
+                        </ul>
+                    </li>
+                
+            
+            <li>Captain America:The First Avengers
+                <ol type="a">
+                    <li>Release Date
+                        <ul type="circle">
+                            <li>July 19, 2011 </li>
+                        </ul></li></ol>  
+                    </li>
+                    <li>Director(s)
+                        <ol type="i">
+                            <li>Joe Johnston 
+                                <ul>
+                                    <li>Actor
+                                        <ul type="circle">
+                                            <li>1977–present</li>
+                                        </ul>
+                                    </li>
+                                    <li>Director</li>
+                                </ul>
+                            </li>
+                        </ol>  
+                    </li>
+                    <li>Producer(s)
+                        <ul type="circle">
+                            <li>Kevin Feige </li>
+                        </ul>  
+                    </li>
+                
+            
+            <li>Thor
+                <ol type="a">
+                    <li>Release Date
+                        <ul type="circle">
+                            <li>April 17, 2011 </li>
+                        </ul> 
+                    </li>
+                    <li>Director(s)
+                        <ol type="i">
+                            <li>Kenneth Branagh 
+                                <ul>
+                                    <li>Actor
+                                        <ul type="circle">
+                                            <li>1981–present</li>
+                                        </ul> 
+                                    </li>
+                                    <li>Director</li>
+                                </ul>
+                            </li>
+                        </ol> 
+                    </li>
+                    <li>Producer(s)
+                        <ul type="circle">
+                            <li>Kevin Feige </li>
+                        </ul> 
+                    </li>
+                </ol>
+            </li>
+        
+        <li> <b>Phase 2</b> </li>
+        <li><b>Phase 3</b> </li>
+        <li><b>Phase 4</b> </li>
+    
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
