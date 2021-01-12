@@ -1,0 +1,50 @@
+.superhero{
+    text-align: center;
+    color: rgb(8, 8, 8);
+    background-color: #e8ea73;
+    font-size: 50px;
+    font-family: 'Grenze Gotisch', cursive;
+
+}
+.link{
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.HULK h2{
+    font-size: 40px;
+    color: #50ea42;
+
+}
+.HULK p{
+    letter-spacing: 4px;
+    text-indent: 100px;
+
+}
+.THOR h2{
+    text-align: right;
+    font-size: 50px;
+    color: #487EB0;
+    text-decoration: overline;
+}
+.THOR p{
+    text-align: right;
+    line-height: 30px;
+    word-spacing: 5px;
+
+}
+.IRON-MAN h2{
+    text-align: center;
+    color: yellow;
+    background-color: teal;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.IRON-MAN p{
+    text-decoration: line-through;
+}
+.IRON-MAN #second{
+    text-decoration: none;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
